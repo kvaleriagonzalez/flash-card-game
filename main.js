@@ -11,7 +11,7 @@ $(document).ready(function () {
         let card = document.querySelector(".card:last-child");
         if (e.target !== card) return;
         card.style.animation = "swap 700ms forwards";
-        $(".wrong").show();
+        $(".wrong").show().css('backgroundColor', 'whitesmoke');
         $('p').empty();
         setTimeout(() => {
             card.style.animation = "";
@@ -22,6 +22,7 @@ $(document).ready(function () {
 
     $('.answer').on('click', function () {
         $('p').text("Correct answer");
+        
 
     });
 
@@ -31,7 +32,7 @@ $(document).ready(function () {
     })
 
     $('.wrong').on('click', function () {
-        $(this).css('backgroundColor', 'rgba(255, 117, 107, 0.68)')
+        $(this).css('backgroundColor', 'rgba(255, 117, 107, 0.68)');
         alert(`Wrong answer`)
 
     });
