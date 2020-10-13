@@ -11,8 +11,8 @@ $(document).ready(function () {
         let card = document.querySelector(".card:last-child");
         if (e.target !== card) return;
         card.style.animation = "swap 700ms forwards";
-        $(".wrong").show().css('backgroundColor', 'whitesmoke');
         $('p').empty();
+        $(".wrong").show().css('backgroundColor', 'whitesmoke');
         setTimeout(() => {
             card.style.animation = "";
             stack.prepend(card);
