@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 
     $('.answer').on('click', function () {
-        $('p').text("Correct answer");
+        $('p').text("Correct answer").css ('font-size', '20px')
         
 
     });
