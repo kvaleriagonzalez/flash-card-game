@@ -21,20 +21,17 @@ $(document).ready(function () {
 
 
     $('.answer').on('click', function () {
-        $('p').text("Correct answer").css ('font-size', '20px')
+        $('p').text("Correct answer").css ('font-size', '20px');
         
-
     });
 
     $('.answer').on('click', event => {
         $(".wrong").hide();
-
     })
 
     $('.wrong').on('click', function () {
         $(this).css('backgroundColor', 'rgba(255, 117, 107, 0.68)');
         alert(`Wrong answer`)
-
     });
 
     const juno = 'Created at Juno College';
