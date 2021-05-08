@@ -148,9 +148,9 @@ button{
 }
 @media (max-width: 320px) {
   .card {
-  min-height: 32%;
-  top: 74%;
   width: 73%;
+  min-height: 25%;
+  top: 67%;
   }
 
 }
