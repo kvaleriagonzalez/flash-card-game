@@ -139,7 +139,7 @@ button {
 @media (max-width: 600px) {
   
   .card {
-    width: 50%;
+    width: 60%;
     font-size:2rem ;
     min-height: 26%;
 }
