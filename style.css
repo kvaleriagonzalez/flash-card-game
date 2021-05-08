@@ -144,5 +144,13 @@ button {
 }
 button{
   font-size:20px;
+  }
 }
+@media (max-width: 320px) {
+  .card {
+  min-height: 32%;
+  top: 74%;
+  width: 73%;
+  }
+
 }
