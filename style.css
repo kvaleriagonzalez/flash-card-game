@@ -141,6 +141,7 @@ button {
   .card {
     width: 50%;
     font-size:2rem ;
+    min-height: 26%;
 }
 button{
   font-size:20px;
@@ -152,5 +153,4 @@ button{
   min-height: 25%;
   top: 67%;
   }
-
 }
